@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.top-header {
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.invert-arrow {
+    transform: rotateY(180deg);
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 0 1em 0;
+}
+
+.header-icon {
+ max-width: 35px;
+ filter: brightness(0) invert(1);
+}
+
+.logo {
+    max-width: 50px;
+    filter: brightness(0) invert(1);
+}
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
