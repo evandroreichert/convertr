@@ -250,3 +250,31 @@ header {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  /* TC + Lacoste */
+.tc-lacoste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.tc-lacoste h2 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.tc-lacoste p {
+    font-size: .4em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.shoe {
+    width: 100%;
+    margin-top: 40px;
+}
