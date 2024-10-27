@@ -1,7 +1,8 @@
 const categoriesSlider = initializeSlider('.categories');
 const featuredSlider = initializeSlider('.featured-products');
 const bestSellerSlider = initializeSlider('.best-sellers');
-const glassesSlider = initializeSlider('.glasses');
+const glassesSlider = initializeSlider('.glasses'); 
+const perfumeSlider = initializeSlider('.perfume'); 
 
 function initializeSlider(containerSelector) {
   const container = document.querySelector(containerSelector);
