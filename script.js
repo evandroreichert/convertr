@@ -4,6 +4,7 @@ const bestSellerSlider = initializeSlider('.best-sellers');
 const glassesSlider = initializeSlider('.glasses'); 
 const perfumeSlider = initializeSlider('.perfume'); 
 const acessoriesSlider = initializeSlider('.acessories'); 
+const reviewsSlider = initializeSlider('.reviews'); 
 
 function initializeSlider(containerSelector) {
   const container = document.querySelector(containerSelector);
