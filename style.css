@@ -114,7 +114,7 @@ header {
 }
 
 /* Categories */
-.categories p {
+.section-title {
     margin: 25px 0 0 20px;
     font-weight: bolder;
     font-size: 1.2em;
@@ -133,7 +133,7 @@ header {
 
   .card {
     max-width: 30em;
-    height: 35em;
+    height: fit-content;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -146,7 +146,9 @@ header {
 
   .card img {
     height: 500px;
+    width: 350px;
     align-self: center;
+    background-size: cover;
   }
 
   .card h2 {
@@ -160,27 +162,7 @@ header {
   }
 
   .card p {
-    color: #666;
     line-height: 1.5;
-  }
-
-  .indicators {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .indicator {
-    width: 8px;
-    height: 8px;
-    background: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-
-  .indicator.active {
-    background: #333;
   }
 
   @media (min-width: 768px) {
@@ -277,4 +259,48 @@ header {
 .shoe {
     width: 100%;
     margin-top: 40px;
+}
+
+/* Featured Products */
+.product-name {
+  font-size: .85em;
+  margin: 10px 0 5px 0;
+  color: grey;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: .85em;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.old-price {
+  font-size: .85em;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
+
+.installments {
+  font-size: .7em;
+}
+
+.pix-price {
+  font-weight: bolder;
+  color: green;
+}
+
+.pix {
+font-weight: lighter;
+color: black;
+}
+
+.colors {
+  font-size: .7em;
+  margin-top: 10px;
+
 }
