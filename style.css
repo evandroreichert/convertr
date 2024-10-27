@@ -321,9 +321,10 @@ color: black;
 
 .since {
   font-size: .7em;
+  font-weight: 700;
   letter-spacing: .3em;
   margin-top: 12px;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 .sneakers h2 {
@@ -439,4 +440,19 @@ color: black;
   .review-text {
       font-size: 0.85em;
   }
+}
+
+/* Collab */
+.collab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.collab h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-top: 5px;
 }
