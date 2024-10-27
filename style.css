@@ -337,3 +337,14 @@ color: black;
   opacity: 90%;
   margin-bottom: 25px;
 }
+
+/* Acessories */
+.acessories {
+  background-color: black;
+  padding: 10px 0 5px 0;
+  color: white;
+}
+
+.acessories-card {
+  background-color: black;
+}

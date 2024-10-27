@@ -3,6 +3,7 @@ const featuredSlider = initializeSlider('.featured-products');
 const bestSellerSlider = initializeSlider('.best-sellers');
 const glassesSlider = initializeSlider('.glasses'); 
 const perfumeSlider = initializeSlider('.perfume'); 
+const acessoriesSlider = initializeSlider('.acessories'); 
 
 function initializeSlider(containerSelector) {
   const container = document.querySelector(containerSelector);
