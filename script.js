@@ -115,3 +115,16 @@ function initializeSlider(containerSelector) {
       getCurrentIndex: () => currentIndex
   };
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+    
+    accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            this.classList.toggle('active');
+            
+            const content = this.nextElementSibling;
+            content.classList.toggle('active');
+        });
+    });
+});
