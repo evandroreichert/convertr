@@ -78,7 +78,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 350px;
-    padding-right: 10em;
+    padding-right: 30svw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,6 +254,10 @@ header {
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.tc-lacoste img {
+  overflow-x: hidden;
 }
 
 .shoe {
@@ -586,14 +590,7 @@ footer img {
 }
 
 footer .copyright {
-  padding-top: 60px;
-}
-
-/*Mobile & Tablet*/
-@media (max-width: 992px) {
-  .footer-container {
-      grid-template-columns: 1fr;
-  }
+  padding: 30px 0 30px 0;
 }
 
 /* Accordion */
@@ -645,4 +642,26 @@ footer .copyright {
       grid-template-columns: 1fr;
       padding: 0 20px;
   }
+}
+
+/* Payment Methods - Safe Website */
+.column {
+  background-color: white;
+  padding: 15px;
+}
+.payment-methods img {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.safe-website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.safe-website img {
+  width: 150px;
+  margin-top: 15px;
 }
